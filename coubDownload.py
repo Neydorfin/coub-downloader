@@ -51,7 +51,7 @@ def pars(url):
 def main():
     full_dict = dict()
     # set after explore category what you want
-    category = 'anime'
+    category = 'animals-pets'
     # on one page exist 10 coub video
     starting_page = 0
     number_of_page = 6
