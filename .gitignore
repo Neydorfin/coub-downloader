@@ -1,7 +1,4 @@
-Download/*.mp4
-Download/*.mp3
-FinalVideo/*.mp4
-FullVideo/*.mp4
+*.mp4
 *.mp3
 __pycache__/
 .idea/
