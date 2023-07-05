@@ -54,7 +54,7 @@ def main():
     category = 'animals-pets'
     # on one page exist 10 coub video
     starting_page = 0
-    number_of_page = 6
+    number_of_page = 2
     for i in range(starting_page, number_of_page):
         print(f"Parsing {i + 1} page...")
         url = f'https://coub.com/api/v2/timeline/explore/{category}?page={i + 1}'
