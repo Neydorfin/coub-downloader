@@ -51,13 +51,13 @@ def pars(url):
 def main():
     full_dict = dict()
     # set after explore category what you want
-    category = 'animals-pets'
+    category = 'anime'
     # on one page exist 10 coub video
     starting_page = 0
     number_of_page = 6
     for i in range(starting_page, number_of_page):
-        print(f"Parsing {i+1} page...")
-        url = f'https://coub.com/api/v2/timeline/explore/{category}?page={i+1}'
+        print(f"Parsing {i + 1} page...")
+        url = f'https://coub.com/api/v2/timeline/explore/{category}?page={i + 1}'
         data = pars(url=url)
         if data == 'Request error':
             print("Something came wrong, request error!!!")
